@@ -15,13 +15,16 @@ class TechniqueFixtures extends Fixture
     {
         $nomsTechnique = [
             'Infini',
-            'Laceration',
+            'Lacération',
             'Boogie Woogie',
             'Rayon noir'
         ];
 
         $descriptionsTechnique = [
-            
+            "Crée une zone d'infini autour de l'utilisateur",
+            "Lacère un adversaire à distance",
+            "Interverti l'emplacement de l'utilisateur avec un autre personnage lorsqu'il tape dans ses mains",
+            "Crée un rayon d'énergie lors d'un coup de poing"
         ];
 
         foreach ($nomsTechniques as $key => $nomTechnique) {

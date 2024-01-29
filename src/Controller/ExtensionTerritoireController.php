@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class ExtensionTerritoireController extends AbstractController
 {
-    #[Route('/extension/territoire', name: 'app_extension_territoire')]
+    #[Route('/extensionterritoire', name: 'extension_territoire')]
     public function index(): Response
     {
         return $this->render('extension_territoire/index.html.twig', [
